@@ -1,0 +1,25 @@
+{
+  "name": "fsbin",
+  "version": "0.1.0",
+  "description": "Simple file system utility for npm scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fsbin": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnfliu818/fsbin.git"
+  },
+  "author": "johnfliu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnfliu818/fsbin/issues"
+  },
+  "homepage": "https://github.com/johnfliu818/fsbin#readme",
+  "dependencies": {
+    "fs-extra": "^5.0.0"
+  }
+}
