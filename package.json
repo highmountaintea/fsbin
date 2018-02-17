@@ -1,6 +1,6 @@
 {
   "name": "fsbin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simple file system utility for npm scripts",
   "main": "index.js",
   "scripts": {
