@@ -18,6 +18,8 @@ It simply exposes `fs-extra` functionalities. Examples:
 ```
 fsbin emptyDir <dir>
 fsbin copy <srcdir> <destdir>
+fsbin mkdirs build/static/styles
+fsbin remove build/static
 ```
 
 ## Special Thanks
