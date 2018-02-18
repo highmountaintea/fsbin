@@ -22,5 +22,13 @@ fsbin mkdirs build/static/styles
 fsbin remove build/static
 ```
 
+In [`create-mithril-app`](https://www.npmjs.com/package/create-mithril-app), I used the following for the `build` pipeline:
+```js
+"scripts": {
+  "build": "fsbin emptyDir build && fsbin copy public build && webpack"
+}
+```
+The above script empties the `build` folder, then repopulates it with both static files and webpacked files.
+
 ## Special Thanks
-Obviously special thanks to the `fs-extra` team.
+Special thanks to the `fs-extra` team.
