@@ -14,7 +14,7 @@ I need some quick and dirty way to delete a directory or copy a directory in npm
 ## Usage
 `npm install fsbin`, then use it in your package.json.
 
-It simply exposes `fs-extra` functionalities. Examples:
+It simply exposes [`fs-extra`](https://www.npmjs.com/package/fs-extra#methods) functionalities. Examples:
 ```
 fsbin emptyDir <dir>
 fsbin copy <srcdir> <destdir>
