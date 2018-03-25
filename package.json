@@ -1,6 +1,6 @@
 {
   "name": "fsbin",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Simple file system utility for npm scripts",
   "keywords": [
     "fs",
@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test/index.js"
+    "test": "node test/index.js && node test/delete.js"
   },
   "bin": {
     "fsbin": "./index.js"
@@ -35,8 +35,10 @@
     "fs-extra": "^5.0.0"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^4.9.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^5.0.5"
   }
 }
