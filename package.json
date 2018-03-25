@@ -1,12 +1,22 @@
 {
   "name": "fsbin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple file system utility for npm scripts",
-  "keywords":["fs", "rimraf", "rmdir", "mkdirp", "file system", "file", "copy", "directory", "recursive"],
+  "keywords": [
+    "fs",
+    "rimraf",
+    "rmdir",
+    "mkdirp",
+    "file system",
+    "file",
+    "copy",
+    "directory",
+    "recursive"
+  ],
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
   },
   "bin": {
     "fsbin": "./index.js"
@@ -23,5 +33,10 @@
   "homepage": "https://github.com/highmountaintea/fsbin#readme",
   "dependencies": {
     "fs-extra": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0"
   }
 }
