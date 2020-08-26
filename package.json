@@ -1,6 +1,6 @@
 {
   "name": "fsbin",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Simple file system utility for npm scripts",
   "keywords": [
     "fs",
@@ -36,9 +36,9 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "mocha": "^6.2.0"
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.1.2"
   }
 }
